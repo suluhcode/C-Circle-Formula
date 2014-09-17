@@ -24,12 +24,16 @@
 
 #include <stdio.h>
 #define phi 3.14
+
 int main()
 {
-int a; float luas;
-printf("masukkan jari-jari lingkaran:");
-scanf("%d",&a);
-luas=phi*a*a;
-printf("luas lingkaran adalah:%.2f",luas);
-printf("\n\n            Program by: Ade Suluh");
+  int a; float luas;
+  
+  printf("masukkan jari-jari lingkaran:");
+  scanf("%d",&a);
+  
+  luas=phi*a*a;
+  
+  printf("luas lingkaran adalah:%.2f",luas);
+  printf("\n\n            Program by: Ade Suluh");
 }
